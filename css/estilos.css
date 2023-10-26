@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fed2da
+}
+
+.borderItems {
+    border: 1px solid black;
+    border-top: none;
+}
+
+.contenedor {
+    padding-left: 0px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.lupa {
+    width: 35px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.backPink {
+    background-color: #fed2da;
+    border: none
+}
+
+.estiloTitulo {
+    background-color: black;
+    color: white;
+    height: 35px;
+    padding: 5px;
+}
+
+.backImage {
+    background-image: url("../img/imgmaindesktop.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.bolderText {
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+.estProd {
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+
+
+@media (min-width:992px) {
+    .barraNone {
+        display: none;
+    }
+    .gorda {
+        width: 1250px;
+        align-items: end;
+    }
+    .larga {
+        width: 450px;
+    }
+}
+
+.pointer {
+    cursor: pointer
+}
+
+.padreFlex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.hijoFlex {
+    width: 250px;
+    height: 250px;
+   
+}
+
+.hijoFlex a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none; 
+    text-transform: uppercase;
+
+}
+
+.estiloProd {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    color: white;
+}
+
+.basic {
+    background-size: cover;
+    border: 1px solid black;
+    background-position: center;
+}
+.collar {
+    background-image: url("../img/prinCollar.jpg");
+}
+.pulsera {
+    background-image: url("../img/prinPulse.jpg");
+}
+.anillo {
+    background-image: url("../img/prinAnillos.jpg");
+}
+.tobi {
+    background-image: url("../img/prinTobi.jpg");
+}
+.phone {
+    background-image: url("../img/prinphone.jpg");
+}
+
+.borderTop {
+    border-top: 1px solid black;
+}
+
+.inBl {
+    display: flex;
+    align-items: flex-end
+}
+
+.ig {
+    padding: 5px;
+    width: 40px;
+}
+
+.hijoRebelde {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.tituloProductos {
+    background-color: #c1101a;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.imgCard {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.estProductos {
+    font-size: 1.5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    background-color: white;
+}
+
+.cienPor {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.estiloCard {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.paddinCero {
+    padding: 0px;
+}
+
+.rowModificator {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: none;
+}
+
+.marginFooter {
+    margin: 0px 0px 0px;
+}
+
+.boton {
+    background-color: rgb(85, 81, 81);
+    color: white;
+    border: none;
+    padding: 4px 6px;
+}
+
+.boton:hover {
+    color:rgb(85, 81, 81);
+    background-color:white;
+    border: solid 1px rgb(85, 81, 81);
+}
+
+.plata {
+    font-weight: bold;
+    color: black;
+}
+
+.bodyCard {
+    border-top-left-radius: none;
+    border-top-right-radius:none
+}
+
+.borderRadiusNone {
+    border-radius: none;
+}
+
+.imgHist {
+    height: 18rem;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.fontS {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.subt {
+    font-size: 19px;
+    font-weight: bolder;
+    color: black;
+}
+
+.textArea {
+    height: 120px;
+}
+
+.botones {
+    padding-bottom: 10px;
+}
+
+.formFor {
+    height: 200px;
+}
+
+.formFormat {
+    line-height: 30px;
+}
+
+.tamañoAuto {
+    height: auto;
+}

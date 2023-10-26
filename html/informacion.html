@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myth</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/favycon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+
+</head>
+<body>
+    <!-- Bienvenidos -->
+    <div class="text-center estiloTitulo">
+        <p>Bienvenidos a mi pagina</p>
+    </div>
+
+    <!-- Menu navegacion -->
+
+    <header class="navbar navbar-expand-lg encabezado borderItems">
+        <nav class="container-fluid contenedor pointer">
+            <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo.png" alt="Logo"></a>
+
+            <!-- barra de busqueda -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#busquedaNavDropdown"
+                aria-controls="busquedaNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><img
+                    class="lupa" src="../img/lupa.png" alt="busdqueda">
+            </button>
+
+            <!-- cuenta -->
+            <button class="navbar-toggler" type="button"><img class="lupa" src="../img/account1.png" alt="Cuenta">
+            </button>
+
+            <!-- manu de busqueda -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active " href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu backPink">
+                            <li><a class="dropdown-item " href="productos.html">Todos los productos</a></li>
+                            <li><a class="dropdown-item " href="productos.html">Collares</a></li>
+                            <li><a class="dropdown-item " href="productos.html">Pulseras</a></li>
+                            <li><a class="dropdown-item " href="productos.html">Phone Straps</a></li>
+                            <li><a class="dropdown-item " href="productos.html">Tobilleras</a></li>
+                            <li><a class="dropdown-item " href="productos.html">Anillos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " href="informacion.html">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active barraNone" href="cuenta.html">Cuenta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active barraNone" href="carrito.html">Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- barra de busqueda 2 -->
+        <div class="collapse navbar-collapse gorda" id="busquedaNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 larga" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main class="text-center">
+        <img class="imgHist" src="../img/ffd761877b4535832c601a66323fdebf.jpg" alt="Historia">
+        <p class="fontS">Esta pagina surgio del ... Lorem ipsum dolor sit amet consectetur adipisicing elit. In, saepe! Ipsum sint nihil excepturi velit fugit, ratione, aut asperiores, laboriosam hic corporis porro iste provident earum. Consequatur quo inventore, minus delectus totam illo commodi sequi iure vitae, tempora neque ipsam qui nulla ducimus provident error adipisci, distinctio facere vero? Fugit accusamus reprehenderit voluptatibus cupiditate cumque, corrupti amet dicta eaque consectetur.</p>
+
+        <h2 class="subt">Si te interesa dejarnos tus comentarios podes hacerlo aca, nos ayudan a crecer</h2>
+        <textarea class="textArea" name="opiniones" id="opiniones" cols="60" rows="10" placeholder="Aquí puedes comentar..."></textarea>
+        <div class="botones">
+            <input class="boton" type="submit">
+            <input class="boton" type="reset">
+        </div>
+    </main>
+
+    <footer>
+
+        <!-- Parte Contacto -->
+
+        <div>
+            <h2 class="estProductos borderTop borderItems">Contactanos</h2>
+        </div>
+        <div class="inBl">
+            <div class="hijoRebelde">
+                <img class="ig" src="../img/ig.png" alt="instagram">
+            </div>
+
+            <div class="hijoRebelde">
+                <p class="marginFooter">myth.accesorios</p>
+            </div>
+        </div>
+        <div class="inBl">
+            <div class="hijoRebelde">
+                <img class="ig" src="../img/wha.png" alt="whatsapp">
+            </div>
+
+            <div class="hijoRebelde">
+                <p class="marginFooter">+ 549 351-XXXXXXX</p>
+            </div>
+        </div>
+
+        <!-- Parte Medios de pago -->
+
+        <div>
+            <h2 class="estProductos borderItems borderTop">Medios de pago</h2>
+        </div>
+
+        <div class="inBl">
+            <div class="hijoRebelde">
+                <img class="ig plata" src="../img/money.png" alt="efectivo">
+            </div>
+
+            <div class="hijoRebelde">
+                <p class="marginFooter"> Efectivo / Transferencia</p>
+            </div>
+        </div>
+        <div class="inBl">
+            <div class="hijoRebelde">
+                <img class="ig" src="../img/visa.png" alt="tarjeta">
+            </div>
+
+            <div class="hijoRebelde">
+                <p class="marginFooter"> Credito / Debito</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
