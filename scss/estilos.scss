@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import "variables";
+
+@import "menu-productos";
+@import "flex";
+@import "ajustes";
+
+@import "botones";
+@import "header";
+@import "footer";
+@import "info";
+@import "animaciones";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $fondo-ro;
+}
+
+@import "mediaquerie";

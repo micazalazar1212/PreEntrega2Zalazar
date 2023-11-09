@@ -1,0 +1,59 @@
+.borderItems {
+    border: $border-bas;
+    border-top: none;
+}
+
+.contenedor {
+    padding-left: 0px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.lupa {
+    width: 35px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.backPink {
+    background-color: $fondo-ro;
+    border: none
+}
+
+.estiloTitulo {
+    @include estilos(white, black, none);
+    height: 35px;
+    padding: 5px;
+}
+
+.backImage {
+    background-image: url("../img/imgmaindesktop.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.bolderText {
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+.estProd {
+    @include estilos(black, white, none);
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.pointer {
+    cursor: pointer
+}
+
+

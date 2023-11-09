@@ -1,0 +1,60 @@
+.ig {
+    padding: 5px;
+    width: 40px;
+}
+
+.imgCard {
+    width: 100%;
+    text-align: center;
+
+}
+
+.tituloProductos {
+    background-color: #c1101a;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.estProductos {
+    font-size: 1.5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    background-color: white;
+}
+
+.estiloCard {
+    padding: 0px;
+    margin: 0px;
+}
+
+.cienPor {
+    width: 100%;
+    @extend .estiloCard;
+}
+
+.paddinCero {
+    padding: 0px;
+}
+
+.rowModificator {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: none;
+}
+
+.marginFooter {
+    margin: 0px 0px 0px;
+}
+
+.textArea {
+    height: 120px;
+}
+
+.tam {
+    width: 50px;
+}

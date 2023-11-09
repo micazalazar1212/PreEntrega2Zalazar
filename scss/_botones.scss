@@ -1,0 +1,37 @@
+@mixin wid-hei($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin estilos($color, $back-color, $border) {
+    color: $color;
+    background-color: $back-color;
+    border: $border;
+}
+
+
+.boton {
+    @include estilos(white, rgb(85, 81, 81), none);
+    padding: 4px 6px;
+    transition: all 0.7s;
+    border-radius: 6px;
+
+    &:hover {
+        @include estilos(rgb(85, 81, 81), white, solid 1px rgb(85, 81, 81));
+        @include wid-hei(30px, 125px);
+
+    }
+}
+
+.botCu {
+    &:hover {
+        @include wid-hei(70px, 30px);
+    }
+}
+
+.botCup {
+    &:hover {
+        @include wid-hei(100px, 30px);
+    }
+}
+

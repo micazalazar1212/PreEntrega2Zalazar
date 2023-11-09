@@ -1,0 +1,41 @@
+
+.genFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.padreFlex {
+    @extend .genFlex;
+    width: 100%;
+    
+}
+
+.hijoFlex {
+    width: 250px;
+    height: 250px;
+
+}
+
+.hijoFlex {
+    a {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+.inBl {
+    display: flex;
+    align-items: flex-end
+}
+
+.hijoRebelde {
+    @extend .genFlex;
+
+}
+
+

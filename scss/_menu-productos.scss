@@ -1,0 +1,48 @@
+.hovgrey {
+    transition: all 0.2s;
+    &:hover {
+        filter: grayscale(80%);
+    }
+}
+
+.collar {
+    @extend .hovgrey;
+    background-image: url("../img/prinCollar.jpg");
+    
+}
+
+.pulsera {
+    @extend .hovgrey;
+    background-image: url("../img/prinPulse.jpg");
+}
+
+.anillo {
+    @extend .hovgrey;
+    background-image: url("../img/prinAnillos.jpg");
+}
+
+.tobi {
+    @extend .hovgrey;
+    background-image: url("../img/prinTobi.jpg");
+}
+
+.phone {
+    @extend .hovgrey;
+    background-image: url("../img/prinphone.jpg");
+}
+
+
+.estiloProd {
+    @extend .genFlex;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    color: white;
+}
+
+
+.basic {
+    background-size: cover;
+    border: $border-bas;
+    background-position: center;
+}
