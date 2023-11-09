@@ -18,7 +18,7 @@
 
     &:hover {
         @include estilos(rgb(85, 81, 81), white, solid 1px rgb(85, 81, 81));
-        @include wid-hei(30px, 125px);
+        @include wid-hei(125px, 30px);
 
     }
 }
