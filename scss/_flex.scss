@@ -1,13 +1,14 @@
 
-.genFlex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+@mixin flexItems($dis, $wrap, $jusCon, $aliIt, $aliCon) {
+    display: $dis;
+    flex-wrap: $wrap;
+    justify-content: $jusCon;
+    align-items: $aliIt;
+    align-content: $aliCon;
 }
+
 .padreFlex {
-    @extend .genFlex;
+    @include flexItems(flex, wrap, center, center, center);
     width: 100%;
     
 }
@@ -34,8 +35,6 @@
 }
 
 .hijoRebelde {
-    @extend .genFlex;
+    @include flexItems(flex, wrap, center, center, center);
 
 }
-
-

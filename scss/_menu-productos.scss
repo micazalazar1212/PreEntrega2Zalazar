@@ -33,7 +33,7 @@
 
 
 .estiloProd {
-    @extend .genFlex;
+    @include flexItems(flex, wrap, center, center, center);
     text-align: center;
     width: 250px;
     height: 250px;

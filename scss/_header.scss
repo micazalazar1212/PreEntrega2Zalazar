@@ -5,6 +5,9 @@
 
 .contenedor {
     padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
 }
 
 .logo {
@@ -13,8 +16,6 @@
 
 .lupa {
     width: 35px;
-    display: flex;
-    align-self: flex-end;
 }
 
 .backPink {

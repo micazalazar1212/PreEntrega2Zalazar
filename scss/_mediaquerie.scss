@@ -1,12 +1,15 @@
-@media (min-width:992px) {
+@media (min-width: 992px) {
     .barraNone {
         display: none;
     }
+    
     .gorda {
-        width: 1250px;
+        width: auto;
         align-items: end;
     }
-    .larga {
-        width: 450px;
+
+    .botonLargo {
+        width: auto;
+        @include flexItems(flex, wrap, flex-end, flex-end, flex-end);
     }
 }
