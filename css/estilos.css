@@ -6,6 +6,41 @@
   padding: 0;
 }
 
+.padreFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.hijoFlex {
+  width: 250px;
+  height: 250px;
+}
+
+.hijoFlex a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.inBl {
+  display: flex;
+  align-items: flex-end;
+}
+
+.hijoRebelde {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 .hovgrey, .phone, .tobi, .anillo, .pulsera, .collar {
   transition: all 0.2s;
 }
@@ -34,6 +69,11 @@
 }
 
 .estiloProd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   text-align: center;
   width: 250px;
   height: 250px;
@@ -44,36 +84,6 @@
   background-size: cover;
   border: 1px solid black;
   background-position: center;
-}
-
-.genFlex, .hijoRebelde, .padreFlex, .estiloProd {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-.padreFlex {
-  width: 100%;
-}
-
-.hijoFlex {
-  width: 250px;
-  height: 250px;
-}
-
-.hijoFlex a {
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.inBl {
-  display: flex;
-  align-items: flex-end;
 }
 
 .ig {
@@ -168,6 +178,9 @@
 
 .contenedor {
   padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
 }
 
 .logo {
@@ -176,8 +189,6 @@
 
 .lupa {
   width: 35px;
-  display: flex;
-  align-self: flex-end;
 }
 
 .backPink {
@@ -277,11 +288,16 @@ body {
     display: none;
   }
   .gorda {
-    width: 1250px;
+    width: auto;
     align-items: end;
   }
-  .larga {
-    width: 450px;
+  .botonLargo {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
   }
 }
 
