@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web para comprar/adquirir accesorios como pulseras, anillos, collares, phone straps, tobilleras, etc.. ">
+    <title>Collares | Myth</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../../img/IMG_20220719_221115_271.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+
+<body class="container-fluid paddinCero">
+    <!-- Bienvenidos -->
+    <div class="text-center estiloTitulo">
+        <p class="animate__animated animate__fadeInLeft">Envíos a todo el país</p>
+    </div>
+
+    <!-- Menu navegacion -->
+
+    <header class="navbar navbar-expand-lg encabezado borderItems">
+        <nav class="container-fluid contenedor pointer">
+            <a class="navbar-brand" href="../../index.html"><img class="logo" src="../../img/logo.png" alt="Logo"></a>
+
+            <!-- barra de busqueda -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#busquedaNavDropdown"
+                aria-controls="busquedaNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><img
+                    class="lupa" src="../../img/lupa.png" alt="busdqueda">
+            </button>
+
+            <!-- cuenta -->
+            <button class="navbar-toggler" type="button"><a href="../cuenta.html"><img class="lupa" src="../../img/account1.png" alt="Cuenta"></a>
+            </button>
+
+            <!-- manu de busqueda -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active " href="../../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu backPink">
+                            <li><a class="dropdown-item " href="todos.html">Todos los productos</a></li>
+                            <li><a class="dropdown-item " href="collares.html">Collares</a></li>
+                            <li><a class="dropdown-item " href="pulseras.html">Pulseras</a></li>
+                            <li><a class="dropdown-item " href="phonestrap.html">Phone Straps</a></li>
+                            <li><a class="dropdown-item " href="tobilleras.html">Tobilleras</a></li>
+                            <li><a class="dropdown-item " href="anillos.html">Anillos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " href="../informacion.html">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../cuenta.html">Cuenta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../carrito.html">Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- barra de busqueda 2 -->
+        <div class="collapse navbar-collapse gorda" id="busquedaNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 botonLargo" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+        <div>
+            <h2 class="estProductos borderItems ">Todos los productos: </h2>
+        </div>
+
+        <!-- cards -->
+        <div class="row container-fluid paddinCero rowModificator">
+            <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
+                <img src="../../img/1.jpg" class="card-img-top imgCard" alt="Luna">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Luna</h3>
+                    <p class="plata">$500</p>
+                    <button type="button" class="btn btn-primary boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
+                <img src="../../img/2.jpg" class="card-img-top imgCard" alt="Vibes">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Vibes</h3>
+                    <p class="plata">$500</p>
+                    <button type="button" class="btn btn-primary boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Añadir al carrito
+                    </button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
+                <img src="../../img/10.jpg" class="card-img-top imgCard" alt="White">
+                <div class="card-body text-center">
+                    <h3 class="card-title">White</h3>
+                    <p class="plata">$500</p>
+                    <button type="button" class="btn btn-primary boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
+                <img src="../../img/5.jpg" class="card-img-top imgCard" alt="Daisy">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Daisy</h3>
+                    <p class="plata">$500</p>
+                    <button type="button" class="btn btn-primary boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
+                <img src="../../img/6.jpg" class="card-img-top imgCard" alt="Tiki">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Tiki</h3>
+                    <p class="plata">$500</p>
+                    <button type="button" class="btn btn-primary boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
+                <img src="../../img/3.jpg" class="card-img-top imgCard" alt="Flower">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Flower</h3>
+                    <p class="plata">$500</p>
+                    <button type="button" class="btn btn-primary boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
+                <img src="../../img/4.jpg" class="card-img-top imgCard" alt="Green">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Green</h3>
+                    <p class="plata">$500</p>
+                    <button type="button" class="btn btn-primary boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
+                <img src="../../img/7.jpg" class="card-img-top imgCard" alt="Iris">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Iris</h3>
+                    <p class="plata">$500</p>
+                    <button type="button" class="btn btn-primary boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Añadir al carrito
+                    </button>
+                </div>
+            </div>
+            <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
+                <img src="../../img/8.jpg" class="card-img-top imgCard" alt="Rainbow">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Rainbow</h3>
+                    <p class="plata">$500</p>
+                    <button type="button" class="btn btn-primary boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Añadir al carrito
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- modal -->
+        <!-- Button trigger modal -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de compras</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ¿Estás seguro de agregar este producto al carrito?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <!-- Parte Contacto -->
+
+        <div>
+            <h2 class="estProductos borderTop borderItems">Contactanos</h2>
+        </div>
+        <div class="inBl">
+            <div class="hijoRebelde">
+                <img class="ig" src="../../img/ig.png" alt="instagram">
+            </div>
+
+            <div class="hijoRebelde">
+                <p class="marginFooter">myth.accesorios</p>
+            </div>
+        </div>
+        <div class="inBl">
+            <div class="hijoRebelde">
+                <img class="ig" src="../../img/wha.png" alt="whatsapp">
+            </div>
+
+            <div class="hijoRebelde">
+                <p class="marginFooter">+ 549 351-XXXXXXX</p>
+            </div>
+        </div>
+
+        <!-- Parte Medios de pago -->
+
+        <div>
+            <h2 class="estProductos borderItems borderTop">Medios de pago</h2>
+        </div>
+
+        <div class="inBl">
+            <div class="hijoRebelde">
+                <img class="ig plata" src="../../img/money.png" alt="efectivo">
+            </div>
+
+            <div class="hijoRebelde">
+                <p class="marginFooter"> Efectivo / Transferencia</p>
+            </div>
+        </div>
+        <div class="inBl">
+            <div class="hijoRebelde">
+                <img class="ig" src="../../img/visa.png" alt="tarjeta">
+            </div>
+
+            <div class="hijoRebelde">
+                <p class="marginFooter"> Credito / Debito</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

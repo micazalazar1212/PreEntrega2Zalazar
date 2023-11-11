@@ -171,6 +171,17 @@
   height: 30px;
 }
 
+.botonS {
+  color: black;
+  border: 1px solid black;
+  transition: all 0.5s;
+}
+.botonS:hover {
+  color: white;
+  background-color: black;
+  border: solid 1px black;
+}
+
 .borderItems {
   border: 1px solid black;
   border-top: none;

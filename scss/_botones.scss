@@ -35,3 +35,14 @@
     }
 }
 
+.botonS {
+    color: black;
+    border: 1px solid black;
+    transition: all 0.5s;
+    
+    &:hover {
+        @include estilos(white, black, solid 1px black);
+        
+
+    }
+}
