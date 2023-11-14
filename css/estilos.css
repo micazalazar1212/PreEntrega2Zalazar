@@ -199,7 +199,7 @@
 }
 
 .lupa {
-  width: 35px;
+  width: 30px;
 }
 
 .backPink {
@@ -289,9 +289,40 @@
   font-weight: bold;
 }
 
+.ruta {
+  display: flex;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+  margin: 5px 0px 5px 5px;
+}
+.ruta a {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 5px;
+  cursor: pointer;
+  color: black;
+}
+.ruta p {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 5px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fed2da;
+  font-size: 18px;
 }
 
 @media (min-width: 992px) {

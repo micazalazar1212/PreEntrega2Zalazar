@@ -1,0 +1,21 @@
+.ruta {
+    display: flex;
+    @include flexItems(flex, nowrap, start, center, center);
+    margin: 5px 0px 5px 5px;
+
+
+    a {
+        @include flexItems(flex, nowrap, center, center, center);
+        margin-right: 5px;
+        cursor: pointer;
+        color: black;
+    }
+
+    p {
+        @include flexItems(flex, nowrap, center, center, center);
+        margin-right: 5px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+}

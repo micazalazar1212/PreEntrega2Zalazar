@@ -19,10 +19,12 @@
 @import "footer";
 @import "info";
 @import "animaciones";
+@import "seo";
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: $fondo-ro;
+    font-size: 18px;
 }
 
 @import "mediaquerie";

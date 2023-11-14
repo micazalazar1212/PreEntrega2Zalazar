@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sitio web para comprar/adquirir accesorios como pulseras, anillos, collares, phone straps, tobilleras, etc.. ">
+    <meta name="description"
+        content="Sitio web para comprar/adquirir accesorios como pulseras, anillos, collares, phone straps, tobilleras, etc.. ">
     <title>Pulseras | Myth</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon" href="../../img/IMG_20220719_221115_271.png" type="image/x-icon">
     <link rel="stylesheet" href="../../css/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
@@ -33,7 +34,8 @@
             </button>
 
             <!-- cuenta -->
-            <button class="navbar-toggler" type="button"><a href="../cuenta.html"><img class="lupa" src="../../img/account1.png" alt="Cuenta"></a>
+            <button class="navbar-toggler" type="button"><a href="../cuenta.html"><img class="lupa"
+                        src="../../img/account1.png" alt="Cuenta"></a>
             </button>
 
             <!-- manu de busqueda -->
@@ -90,12 +92,27 @@
     </header>
 
     <main>
-        <div>
-            <h2 class="estProductos borderItems ">Todos los productos: </h2>
+        <div class="ruta">
+            <a href="../../index.html">Inicio</a>
+            <p class="sep"> > </p>
+            <a href="todos.html">Productos</a>
+            <p class="sep"> > </p>
+            <a href="pulseras.html">Pulseras</a>
         </div>
 
         <!-- cards -->
         <div class="row container-fluid paddinCero rowModificator">
+            <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
+                <img src="../../img/pulseras.jpg" class="card-img-top imgCard" alt="Luna">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Luna</h3>
+                    <p class="plata">$500</p>
+                    <button type="button" class="btn btn-primary boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Añadir al carrito
+                    </button>
+                </div>
+            </div>
             <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
                 <img src="../../img/1.jpg" class="card-img-top imgCard" alt="Luna">
                 <div class="card-body text-center">
@@ -107,6 +124,7 @@
                     </button>
                 </div>
             </div>
+
             <div class="card col-xl-3 col-md-6 col-sm-12 estiloCard">
                 <img src="../../img/2.jpg" class="card-img-top imgCard" alt="Vibes">
                 <div class="card-body text-center">
