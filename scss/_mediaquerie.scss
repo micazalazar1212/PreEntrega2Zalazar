@@ -1,8 +1,4 @@
 @media (min-width: 992px) {
-    .barraNone {
-        display: none;
-    }
-    
     .gorda {
         width: auto;
         align-items: end;
@@ -11,5 +7,17 @@
     .botonLargo {
         width: auto;
         @include flexItems(flex, wrap, flex-end, flex-end, flex-end);
+    }
+
+    .altoAncho {
+        height: 400px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .mobileWidth {
+        width: 100%;
+        padding-top: 20px;
     }
 }

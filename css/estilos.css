@@ -272,6 +272,29 @@
   color: black;
 }
 
+.corazonesCentro ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+.corazonesCentro ul li {
+  list-style-type: none;
+}
+.corazonesCentro ul li a {
+  text-decoration: none;
+}
+.corazonesCentro ul li a img {
+  height: 120px;
+}
+.corazonesCentro ul li a p {
+  margin-top: 10px;
+  color: black;
+}
+
 .cajaCuenta {
   background-color: white;
   margin-top: 20px;
@@ -326,9 +349,6 @@ body {
 }
 
 @media (min-width: 992px) {
-  .barraNone {
-    display: none;
-  }
   .gorda {
     width: auto;
     align-items: end;
@@ -340,6 +360,16 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
     align-content: flex-end;
+  }
+  .altoAncho {
+    height: 400px;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .mobileWidth {
+    width: 100%;
+    padding-top: 20px;
   }
 }
 
