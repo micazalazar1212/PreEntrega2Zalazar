@@ -377,6 +377,14 @@ body {
     width: 100%;
     padding-top: 20px;
   }
+  .botMobile1:hover {
+    width: 70px;
+    height: 30px;
+  }
+  .botMobile2:hover {
+    width: 100px;
+    height: 30px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

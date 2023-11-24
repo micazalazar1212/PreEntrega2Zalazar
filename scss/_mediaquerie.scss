@@ -20,4 +20,19 @@
         width: 100%;
         padding-top: 20px;
     }
+
+    .botMobile1 {
+
+        &:hover {
+            @include wid-hei(70px, 30px);
+        }
+
+    }
+
+    .botMobile2 {
+        &:hover {
+            @include wid-hei(100px, 30px);
+        }
+
+    }
 }
