@@ -39,7 +39,7 @@
     color: black;
     border: 1px solid black;
     transition: all 0.5s;
-    
+    font-size: 15px;
     &:hover {
         @include estilos(white, black, solid 1px black);
         
